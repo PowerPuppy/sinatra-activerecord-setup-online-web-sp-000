@@ -1,4 +1,1 @@
-class CreateDogs < ActiveRecord::Migration[5.2]
-  def change
-  end
-end
+rake db:create_migration NAME=create_dogs
