@@ -1,1 +1,7 @@
-rake db:create_migration NAME=create_dogs
+class CreateDogs < ActiveRecord::Migration[5.2]
+  def up
+  end
+ 
+  def down
+  end
+end
